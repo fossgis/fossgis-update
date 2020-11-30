@@ -382,6 +382,8 @@ section#about {
 }
 
 #speakers .speaker {
+  background-color: #545b62;
+  height: 263.867px;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -422,6 +424,12 @@ section#about {
 
 #speakers .speaker:hover .details {
   bottom: 0;
+}
+
+#speakers .speaker img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #program .nav-tabs {
