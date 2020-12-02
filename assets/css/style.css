@@ -5,12 +5,12 @@ body {
 }
 
 a {
-  color: #f29933;
+  color: #EE7F00;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #f29933;
+  color: #EE7F00;
   outline: none;
   text-decoration: none;
 }
@@ -48,7 +48,7 @@ section#about {
   display: block;
   width: 80px;
   height: 5px;
-  background: #f29933;
+  background: #EE7F00;
   bottom: 0;
   left: calc(50% - 45px);
 }
@@ -194,7 +194,7 @@ section#about {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f29933;
+  background-color: #EE7F00;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -235,7 +235,7 @@ section#about {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f29933;
+  background: #EE7F00;
   color: #fff;
 }
 
@@ -296,7 +296,18 @@ section#about {
 }
 
 #intro h1 span {
-  color: #f29933;
+  color: #EE7F00;
+}
+
+#intro h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+#intro h3 span {
+  color: #EE7F00;
 }
 
 @media (max-width: 991px) {
@@ -330,11 +341,11 @@ section#about {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f29933;
+  border: 2px solid #EE7F00;
 }
 
 #intro .about-btn:hover {
-  background: #f29933;
+  background: #EE7F00;
   color: #fff;
 }
 
@@ -572,10 +583,10 @@ section#about {
 
 .tickets-badge a {
   color: #fff;
-  background: #f29933;
+  background: #EE7F00;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f29933;
+  border: 2px solid #EE7F00;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-top: 2px;
@@ -624,7 +635,7 @@ section#about {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f29933;
+  background-color: #EE7F00;
   border: 0;
   color: #fff;
 }
@@ -670,7 +681,7 @@ section#about {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f29933;
+  border-bottom: 2px solid #EE7F00;
 }
 
 #footer .footer-top .footer-links {
@@ -685,7 +696,7 @@ section#about {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f29933;
+  color: #EE7F00;
   font-size: 18px;
 }
 
